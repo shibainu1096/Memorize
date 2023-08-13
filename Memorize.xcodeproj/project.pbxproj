@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68A541A82A88D97300834BC0 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A541A72A88D97300834BC0 /* MemoryGame.swift */; };
+		68A541AA2A88DBC600834BC0 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A541A92A88DBC600834BC0 /* EmojiMemoryGame.swift */; };
 		68D8A58C29586B5A008AB5D1 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8A58B29586B5A008AB5D1 /* MemorizeApp.swift */; };
-		68D8A58E29586B5A008AB5D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8A58D29586B5A008AB5D1 /* ContentView.swift */; };
+		68D8A58E29586B5A008AB5D1 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8A58D29586B5A008AB5D1 /* EmojiMemoryGameView.swift */; };
 		68D8A59029586B5B008AB5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D8A58F29586B5B008AB5D1 /* Assets.xcassets */; };
 		68D8A59329586B5B008AB5D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D8A59229586B5B008AB5D1 /* Preview Assets.xcassets */; };
 		68D8A59D29586B5C008AB5D1 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8A59C29586B5C008AB5D1 /* MemorizeTests.swift */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68A541A72A88D97300834BC0 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		68A541A92A88DBC600834BC0 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		68D8A58829586B5A008AB5D1 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D8A58B29586B5A008AB5D1 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		68D8A58D29586B5A008AB5D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68D8A58D29586B5A008AB5D1 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		68D8A58F29586B5B008AB5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D8A59229586B5B008AB5D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68D8A59829586B5C008AB5D1 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,9 +98,11 @@
 		68D8A58A29586B5A008AB5D1 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				68D8A58B29586B5A008AB5D1 /* MemorizeApp.swift */,
-				68D8A58D29586B5A008AB5D1 /* ContentView.swift */,
 				68D8A58F29586B5B008AB5D1 /* Assets.xcassets */,
+				68A541A92A88DBC600834BC0 /* EmojiMemoryGame.swift */,
+				68D8A58D29586B5A008AB5D1 /* EmojiMemoryGameView.swift */,
+				68D8A58B29586B5A008AB5D1 /* MemorizeApp.swift */,
+				68A541A72A88D97300834BC0 /* MemoryGame.swift */,
 				68D8A59129586B5B008AB5D1 /* Preview Content */,
 			);
 			path = Memorize;
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D8A58E29586B5A008AB5D1 /* ContentView.swift in Sources */,
+				68A541A82A88D97300834BC0 /* MemoryGame.swift in Sources */,
+				68D8A58E29586B5A008AB5D1 /* EmojiMemoryGameView.swift in Sources */,
 				68D8A58C29586B5A008AB5D1 /* MemorizeApp.swift in Sources */,
+				68A541AA2A88DBC600834BC0 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
