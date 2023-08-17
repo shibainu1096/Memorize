@@ -92,7 +92,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         }
         
         var isConsumingBonusTime: Bool {
-            isFaceUp && isMatched && bonusTimeRemaining > 0
+            isFaceUp && !isMatched && bonusTimeRemaining > 0
         }
         
         private mutating func startUsingBonusTime() {
